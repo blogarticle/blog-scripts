@@ -1,3 +1,4 @@
+//don't forget to remove the wine ads on december 31 (2 items just above last item)
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24755168?target=_blank&mouseover=N",
@@ -8,12 +9,16 @@ function getSrcLinkLeader() {
                      "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24699103?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24761258?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24761259?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N"];                
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24761249?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760863?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
@@ -26,7 +31,7 @@ function getSrcLinkMobile() {
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
-//don't forget to remove the wine ads (3 items just above last item)
+//don't forget to remove the wine ads on december 31 (2 items just above last item)
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
                          "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
@@ -40,7 +45,6 @@ function getSrcLinkSideBanner() {
                          "http://www.anrdoezrs.net/placeholder-24712835?target=_blank&mouseover=N",
                          "http://www.jdoqocy.com/placeholder-24761137?target=_blank&mouseover=N",
                          "http://www.tkqlhce.com/placeholder-24761138?target=_blank&mouseover=N",
-                         "http://www.tkqlhce.com/placeholder-24761140?target=_blank&mouseover=N",
                          "http://www.dpbolvw.net/placeholder-24761074?target=_blank&mouseover=N"];
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
 }
