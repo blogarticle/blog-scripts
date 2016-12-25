@@ -26,6 +26,7 @@ function getSrcLinkMobile() {
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
+//don't forget to remove the wine ads (3 items just above last item)
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
                          "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
@@ -37,6 +38,9 @@ function getSrcLinkSideBanner() {
                          "http://www.kqzyfj.com/placeholder-24698424?target=_blank&mouseover=N",
                          "http://www.dpbolvw.net/placeholder-24712846?target=_blank&mouseover=N",
                          "http://www.anrdoezrs.net/placeholder-24712835?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24761137?target=_blank&mouseover=N",
+                         "http://www.tkqlhce.com/placeholder-24761138?target=_blank&mouseover=N",
+                         "http://www.tkqlhce.com/placeholder-24761140?target=_blank&mouseover=N",
                          "http://www.dpbolvw.net/placeholder-24761074?target=_blank&mouseover=N"];
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
 }
