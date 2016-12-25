@@ -26,6 +26,21 @@ function getSrcLinkMobile() {
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
+function getSrcLinkSideBanner() {
+  var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
+                         "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
+                         "http://www.kqzyfj.com/placeholder-24761061?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24698798?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24761063?target=_blank&mouseover=N",
+                         "http://www.kqzyfj.com/placeholder-24728766?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24761066?target=_blank&mouseover=N",
+                         "http://www.kqzyfj.com/placeholder-24698424?target=_blank&mouseover=N",
+                         "http://www.dpbolvw.net/placeholder-24712846?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24712835?target=_blank&mouseover=N",
+                         "http://www.dpbolvw.net/placeholder-24761074?target=_blank&mouseover=N"];
+  return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
+}
+
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
@@ -35,5 +50,23 @@ function displayBodyContent() {
     script.src = getSrcLinkLeader();
   }
   document.write(script.outerHTML);
+}
+
+function displayMobileContent() {
+  if(screen.width < 500) {
+    var script = document.createElement("script");
+    script.language="javascript";
+    script.src = getSrcLinkMobile();
+    document.write(script.outerHTML);
+  } 
+}
+
+function displaySideBannerContent() {
+  if(screen.width > 500) {
+    var script = document.createElement("script");
+    script.language="javascript";
+    script.src = getSrcLinkSideBanner();
+    document.write(script.outerHTML);
+  } 
 }
 
