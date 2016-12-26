@@ -24,10 +24,23 @@ function getSrcLinkSideBanner() {
 }
 
 function displayNativeAdContent(){
-  var script = document.createElement("script");
-  script.language="javascript";
-  script.src = "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d08216e9-ee4d-4362-b467-952cb396ecf9&storeId=kperaka-20";
-  document.write(script.outerHTML);
+  var script1 = document.createElement("script");
+  script1.appendChild("amzn_assoc_placement = 'adunit0';")
+  script1.appendChild("amzn_assoc_search_bar = 'false';")
+  script1.appendChild("amzn_assoc_tracking_id = 'kperaka-20';")
+  script1.appendChild("amzn_assoc_ad_mode = 'manual';")
+  script1.appendChild("amzn_assoc_ad_type = 'smart';")
+  script1.appendChild("amzn_assoc_marketplace = 'amazon';")
+  script1.appendChild("amzn_assoc_region = 'US';")
+  script1.appendChild("amzn_assoc_title = 'Amazon Picks';")
+  script1.appendChild("amzn_assoc_linkid = '697ee9c6781439abee0280f599279ef8';")
+  script1.appendChild("amzn_assoc_asins = 'B0001HLTSE,B005MMNBBQ,B002WUPWC2,B00CGSES9I,B00O4XR5QQ';")
+  script1.appendChild("amzn_assoc_size = '728x400';")
+  document.write(script1.outerHTML);
+  
+  var script2 = document.createElement("script");
+  script2.src = "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US";
+  document.write(script2.outerHTML);
 }
 
 function displayBodyContent() {
