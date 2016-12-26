@@ -23,6 +23,7 @@ function getSrcLinkLeader() {
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                     "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d08216e9-ee4d-4362-b467-952cb396ecf9&storeId=kperaka-20",
                      "http://www.tkqlhce.com/placeholder-24761249?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760863?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
