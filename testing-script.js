@@ -1,3 +1,5 @@
+//--------------- THIS CODE IS JUST FOR TESTING. MAIN ONE IS OTHER FILE ---------------//
+
 //don't forget to remove the wine ads on december 31 (2 items just above last item)
 //this is 728x90
 function getSrcLinkLeader() {
