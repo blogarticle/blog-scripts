@@ -68,7 +68,7 @@ function displayBodyContent() {
 }
 
 function displayMobileContent() {
-  if(screen.width < 1500) {
+  if(screen.width < 500) {
     var script = document.createElement("script");
     script.language="javascript";
     script.src = getSrcLinkMobile();
