@@ -23,6 +23,13 @@ function getSrcLinkSideBanner() {
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
 }
 
+function displayNativeAdContent(){
+  var script = document.createElement("script");
+  script.language="javascript";
+  script.src = "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d08216e9-ee4d-4362-b467-952cb396ecf9&storeId=kperaka-20";
+  document.write(script.outerHTML);
+}
+
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
