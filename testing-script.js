@@ -24,7 +24,7 @@ function getSrcLinkSideBanner() {
 }
 
 function getProductIDs(){
-  return "B0001HLTSE,B005MMNBBQ,B002WUPWC2,B00CGSES9I,B00O4XR5QQ";
+  return "B0001HLTSE,B002WUPWC2,B00CGSES9I,B00O4XR5QQ,B00FR85IRK,B00EWCUK1Q,B01HL8LXQ8";
 }
 
 function displayBodyContent() {
