@@ -2,6 +2,7 @@
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24755168?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
