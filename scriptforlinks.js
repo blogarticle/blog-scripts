@@ -2,6 +2,8 @@
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24786062?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24786064?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24755168?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
@@ -22,6 +24,8 @@ function getSrcLinkLeader() {
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24786060?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24786056?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761249?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760863?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
@@ -39,6 +43,8 @@ function getSrcLinkMobile() {
 //this is 160x600 size banner
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24786067?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24786072?target=_blank&mouseover=N",
                          "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
                          "http://www.kqzyfj.com/placeholder-24761061?target=_blank&mouseover=N",
                          "http://www.jdoqocy.com/placeholder-24698798?target=_blank&mouseover=N",
