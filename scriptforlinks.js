@@ -1,5 +1,5 @@
 //don't forget to remove the wine ads on december 31 (2 items just above last item)
-//this is 728x90
+//this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24755168?target=_blank&mouseover=N",
@@ -17,7 +17,7 @@ function getSrcLinkLeader() {
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
-//this is 300x250
+//this is 300x250 size banner
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
@@ -35,7 +35,7 @@ function getSrcLinkMobile() {
 }
 
 //don't forget to remove the wine ads on december 31 (2 items just above last item)
-//this is 160x600
+//this is 160x600 size banner
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
                          "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
@@ -53,6 +53,20 @@ function getSrcLinkSideBanner() {
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
 }
 
+//for displaying amazon recommendations ad
+function displayEndRecomm() {
+  var node = document.createElement("div");
+  node.style = "width:98%";
+  //create script body
+  var script = document.createElement("script");
+  script.language="javascript";
+  script.src = "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d08216e9-ee4d-4362-b467-952cb396ecf9&storeId=kperaka-20";
+  //append script to node
+  node.appendChild(script);
+  document.write(node.outerHTML);
+}
+
+//for displaying the ad in the body
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
@@ -64,6 +78,7 @@ function displayBodyContent() {
   document.write(script.outerHTML);
 }
 
+//for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
     var script = document.createElement("script");
@@ -73,6 +88,7 @@ function displayMobileContent() {
   } 
 }
 
+//for displaying side banner
 function displaySideBannerContent() {
   if(screen.width > 500) {
     var script = document.createElement("script");
