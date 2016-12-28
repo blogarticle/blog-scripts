@@ -31,19 +31,19 @@ function displayGoogleAd() {
   var script = document.createElement("script");
   script.async= true;
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-  node.appendChild(script.outerHTML);
+  node.appendChild(script);
   
   var insrt = document.createdElement("ins");
   insrt.setAttribute('class','adsbygoogle');
   insrt.setAttribute('style','display:block');
   insrt.setAttribute('data-ad-client','ca-pub-8825619236094394');
   insrt.setAttribute('data-ad-slot','6573340668');
-  node.appendChild(insrt.outerHTML);
+  node.appendChild(insrt);
   
   var mainSrpt = document.createElement("script");
   mainScrpt.appendChild("(adsbygoogle = window.adsbygoogle || []).push({})");
   
-  node.appendChild(mainScrpt.outerHTML);
+  node.appendChild(mainScrpt);
   document.write(node.outerHTML);
 }
 
