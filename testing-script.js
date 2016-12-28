@@ -27,18 +27,17 @@ function getSrcLinkSideBanner() {
 function displayGoogleAd() {
   var node = document.createElement("div");
   node.style = "width:98%";
-  //create script body
+  
   var script = document.createElement("script");
   script.async= true;
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-  //append script to node
   node.appendChild(script);
   
   var insrt = document.createdElement("ins");
-  insrt.class = "adsbygoogle";
-  insrt.style = "display:block";
-  insrt.data-ad-client = "ca-pub-8825619236094394";
-  insrt.data-ad-slot = "6573340668";
+  insrt.setAttribute('class','adsbygoogle');
+  insrt.setAttribute('style','display:block');
+  insrt.setAttribute('data-ad-client','ca-pub-8825619236094394');
+  insrt.setAttribute('data-ad-slot','6573340668');
   node.appendChild(insrt);
   
   var mainSrpt = document.createElement("script");
