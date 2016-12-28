@@ -40,7 +40,7 @@ function displayGoogleAds() {
   insrt.setAttribute('data-ad-slot','6573340668');
   node.appendChild(insrt);
   
-  var mainSrpt = document.createElement("script");
+  var mainScrpt = document.createElement("script");
   mainScrpt.appendChild("(adsbygoogle = window.adsbygoogle || []).push({})");
   
   node.appendChild(mainScrpt);
