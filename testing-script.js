@@ -29,7 +29,7 @@ function displayGoogleAd() {
   node.style = "width:98%";
   //create script body
   var script = document.createElement("script");
-  script.async="";
+  script.async= true;
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
   //append script to node
   node.appendChild(script);
