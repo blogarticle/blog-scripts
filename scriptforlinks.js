@@ -1,4 +1,4 @@
-//don't forget to remove the wine ads on december 31 (2 items just above last item)
+//don't forget to remove the wine ads on december 31 (item just above last item)
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
@@ -19,22 +19,17 @@ function getSrcLinkLeader() {
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24786060?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24786056?target=_blank&mouseover=N",
-                     "http://www.tkqlhce.com/placeholder-24761249?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24760863?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
-                     "http://www.anrdoezrs.net/placeholder-24760869?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N",
-                     "http://www.kqzyfj.com/placeholder-24698576?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
-//don't forget to remove the wine ads on december 31 (2 items just above last item)
+//don't forget to remove the wine ads on december 31 (item just above last item)
 //this is 160x600 size banner
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
