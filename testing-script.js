@@ -42,7 +42,7 @@ function displayGoogleAds() {
   
   var mainScrpt = document.createElement("script");
   var insideCode = "(adsbygoogle = window.adsbygoogle || []).push({})";
-  mainScrpt.appendChild(insideCode);
+  mainScrpt.innerHTML = insideCode;
   
   node.appendChild(mainScrpt);
   document.write(node.outerHTML);
