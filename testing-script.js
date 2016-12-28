@@ -24,7 +24,7 @@ function getSrcLinkSideBanner() {
 }
 
 //for displaying google ad units
-function displayGoogleAd() {
+function displayGoogleAds() {
   var node = document.createElement("div");
   node.style = "width:98%";
   
