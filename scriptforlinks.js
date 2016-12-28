@@ -2,6 +2,7 @@
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24786320?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
@@ -18,6 +19,7 @@ function getSrcLinkLeader() {
 //this is 300x250 size banner
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
