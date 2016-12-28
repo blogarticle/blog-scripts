@@ -33,7 +33,7 @@ function displayGoogleAds() {
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
   node.appendChild(script);
   
-  var insrt = document.createdElement("ins");
+  var insrt = document.createElement("ins");
   insrt.setAttribute('class','adsbygoogle');
   insrt.setAttribute('style','display:block');
   insrt.setAttribute('data-ad-client','ca-pub-8825619236094394');
