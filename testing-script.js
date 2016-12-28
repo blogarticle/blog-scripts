@@ -41,7 +41,8 @@ function displayGoogleAds() {
   node.appendChild(insrt);
   
   var mainScrpt = document.createElement("script");
-  mainScrpt.appendChild("(adsbygoogle = window.adsbygoogle || []).push({})");
+  var insideCode = "(adsbygoogle = window.adsbygoogle || []).push({})";
+  mainScrpt.appendChild(insideCode);
   
   node.appendChild(mainScrpt);
   document.write(node.outerHTML);
