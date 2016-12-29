@@ -88,7 +88,7 @@ function displayMobileContent() {
 
 //for displaying side banner
 function displaySideBannerContent() {
-  if(screen.width > 768) {
+  if(screen.width > 500) {
     google_ad_client = "ca-pub-8825619236094394";
     google_ad_slot = "8234557063";
     google_ad_width = 160;
