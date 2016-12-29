@@ -84,9 +84,14 @@ function displayMobileContent() {
 //for displaying side banner
 function displaySideBannerContent() {
   if(screen.width > 500) {
+    google_ad_client = "ca-pub-8825619236094394";
+    google_ad_slot = "8234557063";
+    google_ad_width = 160;
+    google_ad_height = 600;
+    
     var script = document.createElement("script");
-    script.language="javascript";
-    script.src = getSrcLinkSideBanner();
+    script.type="text/javascript";
+    script.src = "//pagead2.googlesyndication.com/pagead/show_ads.js";
     document.write(script.outerHTML);
   } 
 }
