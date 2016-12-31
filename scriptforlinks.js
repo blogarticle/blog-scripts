@@ -1,4 +1,4 @@
-//don't forget to remove the wine ads on december 31 (item just above last item)
+//expedia ending 31st january (last but one)
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
@@ -13,11 +13,13 @@ function getSrcLinkLeader() {
                      "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24761258?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24825200?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N"];                
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
+//expedia ending 31st january (last but one)
 //this is 300x250 size banner
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
@@ -30,11 +32,11 @@ function getSrcLinkMobile() {
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
-//don't forget to remove the wine ads on december 31 (item just above last item)
 //this is 160x600 size banner
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
@@ -44,7 +46,6 @@ function getSrcLinkSideBanner() {
                          "http://www.jdoqocy.com/placeholder-24698798?target=_blank&mouseover=N",
                          "http://www.anrdoezrs.net/placeholder-24761063?target=_blank&mouseover=N",
                          "http://www.anrdoezrs.net/placeholder-24761066?target=_blank&mouseover=N",
-                         "http://www.jdoqocy.com/placeholder-24761137?target=_blank&mouseover=N",
                          "http://www.dpbolvw.net/placeholder-24761074?target=_blank&mouseover=N"];
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
 }
