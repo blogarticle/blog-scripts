@@ -10,36 +10,41 @@ function getSrcLinkLeader() {
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
-//this is 728x90 size banner for all others
-function getSrcLinkOthersLeader() {
-  var leaderOthersArray = ["http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
-                     "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
-                     "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24760854?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
-                     "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N"];                
-  return leaderOthersArray[Math.floor(Math.random() * leaderOthersArray.length)];
-}
-
 //expedia ending 31st january (last but one)
-//this is 300x250 size banner
+//this is 300x250 size banner for travel
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
-                     "http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
-                     "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
-                     "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
-                     "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
-                     "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
-                     "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
+}
+
+//this is 728x90 size banner for all others
+function getSrcLinkOthersLeader() {
+  var leaderOthersArray = ["http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
+                           "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
+                           "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
+                           "http://www.dpbolvw.net/placeholder-24760854?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
+                           "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N"];                
+  return leaderOthersArray[Math.floor(Math.random() * leaderOthersArray.length)];
+}
+
+//this is 300x250 size banner for all others
+function getSrcLinkOthersMobile() {
+  var mobileOthersArray = ["http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
+                           "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
+                           "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                           "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
+                           "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
+                           "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
+                           "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N"];
+  return mobileOthersArray[Math.floor(Math.random() * mobileOthersArray.length)];
 }
 
 //for displaying amazon recommendations ad
