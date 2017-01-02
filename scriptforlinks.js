@@ -72,6 +72,18 @@ function displayBodyContent() {
   document.write(script.outerHTML);
 }
 
+//for displaying the ad in the body
+function displayOthersBodyContent() {
+  var script = document.createElement("script");
+  script.language="javascript";
+  if(screen.width < 500) {
+    script.src = getSrcLinkOthersMobile();
+  } else {
+    script.src = getSrcLinkOthersLeader();
+  }
+  document.write(script.outerHTML);
+}
+
 //for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
