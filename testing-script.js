@@ -1,51 +1,55 @@
 //--------------- THIS CODE IS JUST FOR TESTING. MAIN ONE IS OTHER FILE ---------------//
 
-//don't forget to remove the wine ads on december 31 (item just above last item)
+//expedia ending 31st january (last but one)
 //this is 728x90 size banner
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24799004?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24786320?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24760854?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24825200?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N"];                
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
+//expedia ending 31st january (last but one)
 //this is 300x250 size banner
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
-//don't forget to remove the wine ads on december 31 (item just above last item)
 //this is 160x600 size banner
 function getSrcLinkSideBanner() {
   var sideBannerArray = ["http://www.jdoqocy.com/placeholder-24698462?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24807913?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24786067?target=_blank&mouseover=N",
+                         "http://www.tkqlhce.com/placeholder-24761059?target=_blank&mouseover=N",
+                         "http://www.jdoqocy.com/placeholder-24698798?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24761063?target=_blank&mouseover=N",
+                         "http://www.anrdoezrs.net/placeholder-24761066?target=_blank&mouseover=N",
                          "http://www.dpbolvw.net/placeholder-24761074?target=_blank&mouseover=N"];
   return sideBannerArray[Math.floor(Math.random() * sideBannerArray.length)];
-}
-
-//for displaying google ad units
-function displayGoogleAds() {
-  var node = document.createElement("div");
-  node.style = "width:98%";
-  
-  var script = document.createElement("script");
-  script.async= true;
-  script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-  node.appendChild(script);
-  
-  var insrt = document.createElement("ins");
-  insrt.setAttribute('class','adsbygoogle');
-  insrt.setAttribute('style','display:block');
-  insrt.setAttribute('data-ad-client','ca-pub-8825619236094394');
-  insrt.setAttribute('data-ad-slot','6573340668');
-  node.appendChild(insrt);
-  
-  var mainScrpt = document.createElement("script");
-  var insideCode = "(adsbygoogle = window.adsbygoogle || []).push({})";
-  mainScrpt.innerHTML = insideCode;
-  
-  node.appendChild(mainScrpt);
-  document.write(node.outerHTML);
 }
 
 //for displaying amazon recommendations ad
@@ -76,9 +80,14 @@ function displayBodyContent() {
 //for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
+    google_ad_client = "ca-pub-8825619236094394";
+    google_ad_slot = "9063658661";
+    google_ad_width = 300;
+    google_ad_height = 250;
+    
     var script = document.createElement("script");
-    script.language="javascript";
-    script.src = getSrcLinkMobile();
+    script.type="text/javascript";
+    script.src = "//pagead2.googlesyndication.com/pagead/show_ads.js";
     document.write(script.outerHTML);
   } 
 }
@@ -86,9 +95,14 @@ function displayMobileContent() {
 //for displaying side banner
 function displaySideBannerContent() {
   if(screen.width > 500) {
+    google_ad_client = "ca-pub-8825619236094394";
+    google_ad_slot = "8234557063";
+    google_ad_width = 160;
+    google_ad_height = 600;
+    
     var script = document.createElement("script");
-    script.language="javascript";
-    script.src = getSrcLinkSideBanner();
+    script.type="text/javascript";
+    script.src = "//pagead2.googlesyndication.com/pagead/show_ads.js";
     document.write(script.outerHTML);
   } 
 }
