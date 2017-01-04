@@ -28,6 +28,7 @@ function getSrcLinkMobile() {
 //this is 728x90 size banner for all others
 function getSrcLinkOthersLeader() {
   var leaderOthersArray = ["http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
+                           "http://www.tkqlhce.com/placeholder-24872981?target=_blank&mouseover=N",
                            "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
                            "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
                            "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
@@ -42,6 +43,7 @@ function getSrcLinkOthersLeader() {
 //this is 300x250 size banner for all others
 function getSrcLinkOthersMobile() {
   var mobileOthersArray = ["http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
+                           "http://www.tkqlhce.com/placeholder-24872992?target=_blank&mouseover=N",
                            "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
                            "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
                            "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
