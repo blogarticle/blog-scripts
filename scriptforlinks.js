@@ -2,6 +2,8 @@
 //this is 728x90 size banner for travel
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24872967?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24872974?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24799004?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24786320?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
@@ -14,6 +16,8 @@ function getSrcLinkLeader() {
 //this is 300x250 size banner for travel
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24872944?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24872951?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
