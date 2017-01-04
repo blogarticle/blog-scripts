@@ -2,6 +2,7 @@
 //this is 728x90 size banner for travel
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24872997?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24872967?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24872974?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24799004?target=_blank&mouseover=N",
