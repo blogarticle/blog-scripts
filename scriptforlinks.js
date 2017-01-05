@@ -127,3 +127,24 @@ function displaySideBannerContent() {
   } 
 }
 
+//sample code for async call
+function displayGoogleAsync() {
+  var node = document.createElement("div");
+  node.style = "width:98%";
+  var script = document.createElement("script");
+  script.language="javascript";
+  script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+  script.async = true; 
+  node.appendChild(script);
+  
+  var ins = document.createElement("ins");
+  ins.setAttribute("class","adsbygoogle");
+  ins.setAttribute("style","display:inline-block;width:160px;height:600px");
+  ins.setAttribute("data-ad-client","ca-pub-8825619236094394");
+  ins.setAttribute("data-ad-slot","8234557063");
+  node.appendChild(ins);
+  
+  document.write(node.outerHTML);
+  (adsbygoogle = window.adsbygoogle || []).push({});
+}
+
