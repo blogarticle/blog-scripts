@@ -104,15 +104,23 @@ function displayOthersBodyContent() {
 //for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
-    google_ad_client = "ca-pub-8825619236094394";
-    google_ad_slot = "9063658661";
-    google_ad_width = 300;
-    google_ad_height = 250;
-    
+    var node = document.createElement("div");
+    node.style = "width:100%";
     var script = document.createElement("script");
-    script.type="text/javascript";
-    script.src = "//pagead2.googlesyndication.com/pagead/show_ads.js";
-    document.write(script.outerHTML);
+    script.language="javascript";
+    script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+    script.async = true; 
+    node.appendChild(script);
+    
+    var ins = document.createElement("ins");
+    ins.setAttribute("class","adsbygoogle");
+    ins.setAttribute("style","display:inline-block;width:300px;height:250px");
+    ins.setAttribute("data-ad-client","ca-pub-8825619236094394");
+    ins.setAttribute("data-ad-slot","9063658661");
+    node.appendChild(ins);
+    
+    document.write(node.outerHTML);
+    (adsbygoogle = window.adsbygoogle || []).push({});
   } 
 }
 
