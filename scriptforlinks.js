@@ -1,7 +1,8 @@
-//expedia ending 31st january (last but one)
+//expedia and onetravel ending 31st january (last 2 but one)
 //this is 728x90 size banner for travel
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24900980?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24882799?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24872997?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24872967?target=_blank&mouseover=N",
@@ -9,15 +10,17 @@ function getSrcLinkLeader() {
                      "http://www.tkqlhce.com/placeholder-24799004?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24786320?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24900984?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24825200?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N"];                
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
-//expedia ending 31st january (last but one)
+//expedia and onetravel ending 31st january (last 2 but one)
 //this is 300x250 size banner for travel
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24900981?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24882786?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24882804?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24882795?target=_blank&mouseover=N",
@@ -25,6 +28,7 @@ function getSrcLinkMobile() {
                      "http://www.jdoqocy.com/placeholder-24872951?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24900985?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
