@@ -2,6 +2,7 @@
 //this is 728x90 size banner for travel
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24882799?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24872997?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24872967?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24872974?target=_blank&mouseover=N",
@@ -17,6 +18,9 @@ function getSrcLinkLeader() {
 //this is 300x250 size banner for travel
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24882786?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24882804?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24882795?target=_blank&mouseover=N",
                      "http://www.tkqlhce.com/placeholder-24872944?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24872951?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24786332?target=_blank&mouseover=N",
@@ -29,6 +33,7 @@ function getSrcLinkMobile() {
 //this is 728x90 size banner for all others
 function getSrcLinkOthersLeader() {
   var leaderOthersArray = ["http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24882820?target=_blank&mouseover=N",
                            "http://www.tkqlhce.com/placeholder-24872981?target=_blank&mouseover=N",
                            "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
                            "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
@@ -44,6 +49,7 @@ function getSrcLinkOthersLeader() {
 //this is 300x250 size banner for all others
 function getSrcLinkOthersMobile() {
   var mobileOthersArray = ["http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
+                           "http://www.jdoqocy.com/placeholder-24882822?target=_blank&mouseover=N",
                            "http://www.tkqlhce.com/placeholder-24872992?target=_blank&mouseover=N",
                            "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
                            "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
