@@ -77,7 +77,7 @@ function displayEndRecomm() {
   document.write(node.outerHTML);
 }
 
-//for displaying the ad in the body
+//for displaying the ad in the body (travel stuff)
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
@@ -89,7 +89,7 @@ function displayBodyContent() {
   document.write(script.outerHTML);
 }
 
-//for displaying the ad in the body
+//for displaying the ad in the body (non travel stuff)
 function displayOthersBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
@@ -104,46 +104,50 @@ function displayOthersBodyContent() {
 //for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
-    var node = document.createElement("div");
-    node.style = "width:100%";
-    var script = document.createElement("script");
-    script.language="javascript";
-    script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-    script.async = true; 
-    node.appendChild(script);
-    
-    var ins = document.createElement("ins");
-    ins.setAttribute("class","adsbygoogle");
-    ins.setAttribute("style","display:inline-block;width:300px;height:250px");
-    ins.setAttribute("data-ad-client","ca-pub-8825619236094394");
-    ins.setAttribute("data-ad-slot","9063658661");
-    node.appendChild(ins);
-    
-    document.write(node.outerHTML);
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    displayAdSenseContent("mobileOnly");
   } 
 }
 
 //for displaying side banner
 function displaySideBannerContent() {
   if(screen.width > 500) {
-    var node = document.createElement("div");
-    node.style = "width:100%";
-    var script = document.createElement("script");
-    script.language="javascript";
-    script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-    script.async = true; 
-    node.appendChild(script);
-    
-    var ins = document.createElement("ins");
-    ins.setAttribute("class","adsbygoogle");
-    ins.setAttribute("style","display:inline-block;width:160px;height:600px");
-    ins.setAttribute("data-ad-client","ca-pub-8825619236094394");
-    ins.setAttribute("data-ad-slot","8234557063");
-    node.appendChild(ins);
-    
-    document.write(node.outerHTML);
-    (adsbygoogle = window.adsbygoogle || []).push({});
+    displayAdSenseContent("sideBanner");
   } 
+}
+
+//for displaying responsiveAd
+function displayRespAdContent() {
+  displayAdSenseContent("anySize");
+}
+
+//supporting method for displaying adsense content
+function displayAdSenseContent(adSize) {
+  var node = document.createElement("div");
+  node.style = "width:100%";
+  var script = document.createElement("script");
+  script.language="javascript";
+  script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+  script.async = true;
+  node.appendChild(script);
+  
+  var ins = document.createElement("ins");
+  ins.setAttribute("class","adsbygoogle");
+  ins.setAttribute("data-ad-client","ca-pub-8825619236094394");
+  
+  if(adSize == "mobileOnly") {
+    ins.setAttribute("style","display:inline-block;width:300px;height:250px");
+    ins.setAttribute("data-ad-slot","9063658661");
+  } else if(adSize == "sideBanner") {
+  	ins.setAttribute("style","display:inline-block;width:160px;height:600px");
+    ins.setAttribute("data-ad-slot","8234557063");
+  } else if(adSize == "anySize") {
+  	ins.setAttribute("style","display:block");
+    ins.setAttribute("data-ad-slot","6555151061");
+    ins.setAttribute("data-ad-format","auto");
+  }
+  
+  node.appendChild(ins);
+  document.write(node.outerHTML);
+  (adsbygoogle = window.adsbygoogle || []).push({});
 }
 
