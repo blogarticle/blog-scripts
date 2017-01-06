@@ -117,7 +117,9 @@ function displaySideBannerContent() {
 
 //for displaying small side ad
 function displaySmallSideContent() {
-  displayAdSenseContent("smallSide"); 
+  if(screen.width > 500) {
+    displayAdSenseContent("smallSide"); 
+  }
 }
 
 //for displaying responsiveAd
