@@ -122,15 +122,10 @@ function displaySmallSideContent() {
   }
 }
 
-//for displaying responsiveAd
-function displayRespAdContent() {
-  displayAdSenseContent("anySize");
-}
-
 //supporting method for displaying adsense content
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
-  if(adSize == "anySize" || adSize == "smallSide"){
+  if(adSize == "smallSide"){
     node.style = "width:95%";
   } else {
     node.style = "width:100%";
