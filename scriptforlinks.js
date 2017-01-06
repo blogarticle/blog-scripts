@@ -126,7 +126,7 @@ function displaySmallSideContent() {
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
   if(adSize == "smallSide"){
-    node.style = "width:95%";
+    node.style = "width:90%";
   } else {
     node.style = "width:100%";
   }
