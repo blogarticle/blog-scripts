@@ -123,7 +123,11 @@ function displayRespAdContent() {
 //supporting method for displaying adsense content
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
-  node.style = "width:100%";
+  if(adSize == "anySize"){
+    node.style = "width:98%";
+  } else {
+    node.style = "width:100%";
+  }
   var script = document.createElement("script");
   script.language="javascript";
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
