@@ -129,7 +129,7 @@ function displayRespAdContent() {
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
   if(adSize == "anySize" || adSize == "smallSide"){
-    node.style = "width:98%";
+    node.style = "width:95%";
   } else {
     node.style = "width:100%";
   }
