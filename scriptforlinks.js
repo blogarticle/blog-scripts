@@ -125,11 +125,8 @@ function displaySmallSideContent() {
 //supporting method for displaying adsense content
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
-  if(adSize == "smallSide"){
-    node.style = "width:90%";
-  } else {
-    node.style = "width:100%";
-  }
+  node.style = "width:100%";
+  
   var script = document.createElement("script");
   script.language="javascript";
   script.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
