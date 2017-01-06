@@ -115,6 +115,11 @@ function displaySideBannerContent() {
   } 
 }
 
+//for displaying small side ad
+function displaySmallSideContent() {
+  displayAdSenseContent("smallSide"); 
+}
+
 //for displaying responsiveAd
 function displayRespAdContent() {
   displayAdSenseContent("anySize");
@@ -144,6 +149,9 @@ function displayAdSenseContent(adSize) {
   } else if(adSize == "sideBanner") {
   	ins.setAttribute("style","display:inline-block;width:160px;height:600px");
     ins.setAttribute("data-ad-slot","8234557063");
+  } else if(adSize == "smallSide") {
+  	ins.setAttribute("style","display:inline-block;width:180px;height:150px");
+    ins.setAttribute("data-ad-slot","2234089068");
   } else if(adSize == "anySize") {
   	ins.setAttribute("style","display:block");
     ins.setAttribute("data-ad-slot","6555151061");
