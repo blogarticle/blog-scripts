@@ -42,22 +42,18 @@ function getSrcLinkMobile() {
                      "http://www.tkqlhce.com/placeholder-24699106?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24900985?target=_blank&mouseover=N",
                      "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
-                     "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
+                     "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N",
+                     //non-travel stuff
+                     "http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24882822?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24872992?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
+                     "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
-}
-
-//this is 300x250 size banner for all others
-function getSrcLinkOthersMobile() {
-  var mobileOthersArray = ["http://www.jdoqocy.com/placeholder-24807910?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24882822?target=_blank&mouseover=N",
-                           "http://www.tkqlhce.com/placeholder-24872992?target=_blank&mouseover=N",
-                           "http://www.anrdoezrs.net/placeholder-24792142?target=_blank&mouseover=N",
-                           "http://www.tkqlhce.com/placeholder-24761239?target=_blank&mouseover=N",
-                           "http://www.dpbolvw.net/placeholder-24728890?target=_blank&mouseover=N",
-                           "http://www.dpbolvw.net/placeholder-24760867?target=_blank&mouseover=N",
-                           "http://www.kqzyfj.com/placeholder-24760868?target=_blank&mouseover=N",
-                           "http://www.kqzyfj.com/placeholder-24712934?target=_blank&mouseover=N"];
-  return mobileOthersArray[Math.floor(Math.random() * mobileOthersArray.length)];
 }
 
 //for displaying amazon recommendations ad
