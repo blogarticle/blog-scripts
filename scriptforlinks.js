@@ -1,5 +1,5 @@
-//expedia and onetravel ending 31st january (last 2 but one)
-//this is 728x90 size banner for travel
+//expedia and onetravel ending 31st january (last 2 but one for travel)
+//this is 728x90 size banner for travel and others
 function getSrcLinkLeader() {
   var leaderArray = ["http://www.anrdoezrs.net/placeholder-24755168?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24900980?target=_blank&mouseover=N",
@@ -12,11 +12,23 @@ function getSrcLinkLeader() {
                      "http://www.dpbolvw.net/placeholder-24760820?target=_blank&mouseover=N",
                      "http://www.dpbolvw.net/placeholder-24900984?target=_blank&mouseover=N",
                      "http://www.anrdoezrs.net/placeholder-24825200?target=_blank&mouseover=N",
-                     "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N"];                
+                     "http://www.tkqlhce.com/placeholder-24699053?target=_blank&mouseover=N",
+                     //non-travel stuff
+                     "http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24882820?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24872981?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
+                     "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
+                     "http://www.dpbolvw.net/placeholder-24760854?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
+                     "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
+                     "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N"];                
   return leaderArray[Math.floor(Math.random() * leaderArray.length)];
 }
 
-//expedia and onetravel ending 31st january (last 2 but one)
+//expedia and onetravel ending 31st january (last 2 but one for travel)
 //this is 300x250 size banner for travel
 function getSrcLinkMobile() {
   var mobileArray = ["http://www.anrdoezrs.net/placeholder-24760828?target=_blank&mouseover=N",
@@ -32,22 +44,6 @@ function getSrcLinkMobile() {
                      "http://www.jdoqocy.com/placeholder-24825199?target=_blank&mouseover=N",
                      "http://www.kqzyfj.com/placeholder-24760862?target=_blank&mouseover=N"];
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
-}
-
-//this is 728x90 size banner for all others
-function getSrcLinkOthersLeader() {
-  var leaderOthersArray = ["http://www.kqzyfj.com/placeholder-24807915?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24882820?target=_blank&mouseover=N",
-                           "http://www.tkqlhce.com/placeholder-24872981?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24792140?target=_blank&mouseover=N",
-                           "http://www.anrdoezrs.net/placeholder-24784213?target=_blank&mouseover=N",
-                           "http://www.anrdoezrs.net/placeholder-24728885?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24760848?target=_blank&mouseover=N",
-                           "http://www.dpbolvw.net/placeholder-24760854?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24712954?target=_blank&mouseover=N",
-                           "http://www.tkqlhce.com/placeholder-24773817?target=_blank&mouseover=N",
-                           "http://www.jdoqocy.com/placeholder-24825190?target=_blank&mouseover=N"];                
-  return leaderOthersArray[Math.floor(Math.random() * leaderOthersArray.length)];
 }
 
 //this is 300x250 size banner for all others
@@ -85,18 +81,6 @@ function displayBodyContent() {
     script.src = getSrcLinkMobile();
   } else {
     script.src = getSrcLinkLeader();
-  }
-  document.write(script.outerHTML);
-}
-
-//for displaying the ad in the body (non travel stuff)
-function displayOthersBodyContent() {
-  var script = document.createElement("script");
-  script.language="javascript";
-  if(screen.width < 500) {
-    script.src = getSrcLinkOthersMobile();
-  } else {
-    script.src = getSrcLinkOthersLeader();
   }
   document.write(script.outerHTML);
 }
