@@ -101,7 +101,7 @@ function displayEndRecomm() {
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
   if(adSize == "anySize") {
-    node.style = "width:98%";
+    node.style = "width:98%; height:98%";
   } else {
     node.style = "width:100%";
   }
