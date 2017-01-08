@@ -56,20 +56,7 @@ function getSrcLinkMobile() {
   return mobileArray[Math.floor(Math.random() * mobileArray.length)];
 }
 
-//for displaying amazon recommendations ad
-function displayEndRecomm() {
-  var node = document.createElement("div");
-  node.style = "width:98%";
-  //create script body
-  var script = document.createElement("script");
-  script.language="javascript";
-  script.src = "//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=d08216e9-ee4d-4362-b467-952cb396ecf9&storeId=kperaka-20";
-  //append script to node
-  node.appendChild(script);
-  document.write(node.outerHTML);
-}
-
-//for displaying the ad in the body (travel stuff)
+//for displaying the ad in the body
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
@@ -105,10 +92,19 @@ function displaySideBannerContent() {
   } 
 }
 
+//for displaying responsive ad ad
+function displayEndRecomm() {
+  displayAdSenseContent("anySize");
+}
+
 //supporting method for displaying adsense content
 function displayAdSenseContent(adSize) {
   var node = document.createElement("div");
-  node.style = "width:100%";
+  if(adSize == "anySize") {
+    node.style = "width:98%";
+  } else {
+    node.style = "width:100%";
+  }
   
   var script = document.createElement("script");
   script.language="javascript";
