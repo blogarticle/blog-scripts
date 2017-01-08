@@ -68,16 +68,6 @@ function displayBodyContent() {
   document.write(script.outerHTML);
 }
 
-//for displaying small side ad
-function displaySmallSideContent() {
-  if(screen.width > 500) {
-    var script = document.createElement("script");
-    script.language="javascript";
-    script.src = getSrcLinkMobile();
-    document.write(script.outerHTML);
-  }
-}
-
 //for displaying mobile only ad
 function displayMobileContent() {
   if(screen.width < 500) {
