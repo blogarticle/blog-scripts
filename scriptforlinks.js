@@ -77,7 +77,9 @@ function displayMobileContent() {
 
 //for displaying side banner
 function displaySideBannerContent() {
-  displayAdSenseContent("anySize"); 
+  if(screen.width > 767) {
+    displayAdSenseContent("sideBanner");
+  }  
 }
 
 //for displaying responsive ad ad
