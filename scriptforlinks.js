@@ -112,9 +112,9 @@ function displayAdSenseContent(adSize) {
   } else if(adSize == "sideBanner") {
   	ins.setAttribute("style","display:inline-block;width:160px;height:600px");
     ins.setAttribute("data-ad-slot","8234557063");
-  } else if(adSize == "smallSide") {
-  	ins.setAttribute("style","display:inline-block;width:200px;height:200px");
-    ins.setAttribute("data-ad-slot","6047009868");
+  } else if(adSize == "LeaderBoard") {
+  	ins.setAttribute("style","display:inline-block;width:728px;height:90px");
+    ins.setAttribute("data-ad-slot","6894301068");
   } else if(adSize == "anySize") {
   	ins.setAttribute("style","display:block");
     ins.setAttribute("data-ad-slot","6555151061");
