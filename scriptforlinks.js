@@ -82,7 +82,7 @@ function getAmazonSrcMobile() {
 function displayBodyContent() {
   var script = document.createElement("script");
   script.language="javascript";
-  if(screen.width < 500) {
+  if(window.innerWidth < 420) {
     script.src = getSrcLinkMobile();
   } else {
     script.src = getSrcLinkLeader();
@@ -92,21 +92,21 @@ function displayBodyContent() {
 
 //for displaying mobile only ad
 function displayMobileContent() {
-  if(screen.width < 500) {
+  if(window.innerWidth < 420) {
     displayAdSenseContent("mobileOnly");
   } 
 }
 
 //for displaying side banner
 function displaySideBannerContent() {
-  if(screen.width > 767) {
+  if(window.innerWidth > 767) {
     displayAdSenseContent("sideBanner");
   }  
 }
 
 //for displaying end ad
 function displayEndRecomm() {
-  if(screen.width < 500) {
+  if(window.innerWidth < 420) {
 	displayAmazonAd("mobileOnly");
   } else {
 	displayAdSenseContent("anySize");
