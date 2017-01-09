@@ -109,7 +109,7 @@ function displaySideBannerContent() {
 //for displaying end ad
 function displayEndRecomm() {
   if(window.innerWidth < 420) {
-    displayAmazonAd("mobileOnly");
+    displayAmazonContent("mobileOnly");
   } else if (window.innerWidth > 1020) {
     displayAdSenseContent("LeaderBoard");
   } else {
@@ -157,7 +157,7 @@ function displayAdSenseContent(adSize) {
 }
 
 //supporting method for displaying amazon ad content
-function displayAmazonAd(adSize) {
+function displayAmazonContent(adSize) {
   var iFrame = document.createElement("iframe");
   if(adSize == "mobileOnly") {
 	iFrame.setAttribute("src",getAmazonSrcMobile());
