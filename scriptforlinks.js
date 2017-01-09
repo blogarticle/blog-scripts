@@ -80,14 +80,11 @@ function getAmazonSrcMobile() {
 
 //for displaying the ad in the body
 function displayBodyContent() {
-  var script = document.createElement("script");
-  script.language="javascript";
   if(window.innerWidth < 420) {
-    script.src = getSrcLinkMobile();
+    displayMemberCJContent("mobileOnly");
   } else {
-    script.src = getSrcLinkLeader();
+    displayMemberCJContent("other");
   }
-  document.write(script.outerHTML);
 }
 
 //for displaying mobile only ad
@@ -154,6 +151,18 @@ function displayAdSenseContent(adSize) {
   node.appendChild(ins);
   document.write(node.outerHTML);
   (adsbygoogle = window.adsbygoogle || []).push({});
+}
+
+//supporting method for displaying membercj content
+function displayMemberCJContent(adSize) {
+  var script = document.createElement("script");
+  script.language="javascript";
+  if(adSize == "mobileOnly") {
+    script.src = getSrcLinkMobile();
+  } else {
+    script.src = getSrcLinkLeader();
+  }
+  document.write(script.outerHTML);
 }
 
 //supporting method for displaying amazon ad content
