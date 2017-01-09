@@ -94,7 +94,7 @@ function displayBodyContent() {
 function displayMobileContent() {
   if(window.innerWidth < 420) {
     displayAdSenseContent("mobileOnly");
-  } else if(window.innerWidth > 420 &&  window.innerWidth < 767) {
+  } else if(window.innerWidth >= 420 && window.innerWidth <= 767) {
     displayAdSenseContent("anySize");  
   }
 }
