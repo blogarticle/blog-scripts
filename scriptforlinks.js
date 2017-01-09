@@ -109,7 +109,7 @@ function displayEndRecomm() {
   if(screen.width < 500) {
 	displayAmazonAd("mobileOnly");
   } else {
-	displayAdSenseContent("LeaderBoard");
+	displayAdSenseContent("anySize");
   }
 }
 
