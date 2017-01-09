@@ -94,7 +94,9 @@ function displayBodyContent() {
 function displayMobileContent() {
   if(window.innerWidth < 420) {
     displayAdSenseContent("mobileOnly");
-  } 
+  } else if(window.innerWidth > 420 &&  window.innerWidth < 767) {
+    displayAdSenseContent("anySize");  
+  }
 }
 
 //for displaying side banner
@@ -107,9 +109,11 @@ function displaySideBannerContent() {
 //for displaying end ad
 function displayEndRecomm() {
   if(window.innerWidth < 420) {
-	displayAmazonAd("mobileOnly");
+    displayAmazonAd("mobileOnly");
+  } else if (window.innerWidth > 1020) {
+    displayAmazonAd("other");
   } else {
-	displayAdSenseContent("anySize");
+    displayAdSenseContent("anySize");  
   }
 }
 
