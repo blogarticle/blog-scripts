@@ -137,13 +137,13 @@ function displayAdSenseContent(adSize) {
     ins.setAttribute("style","display:inline-block;width:300px;height:250px");
     ins.setAttribute("data-ad-slot","9063658661");
   } else if(adSize == "sideBanner") {
-  	ins.setAttribute("style","display:inline-block;width:160px;height:600px");
+    ins.setAttribute("style","display:inline-block;width:160px;height:600px");
     ins.setAttribute("data-ad-slot","8234557063");
   } else if(adSize == "LeaderBoard") {
-  	ins.setAttribute("style","display:inline-block;width:728px;height:90px");
+    ins.setAttribute("style","display:inline-block;width:728px;height:90px");
     ins.setAttribute("data-ad-slot","6894301068");
   } else if(adSize == "anySize") {
-  	ins.setAttribute("style","display:block");
+    ins.setAttribute("style","display:block");
     ins.setAttribute("data-ad-slot","6555151061");
     ins.setAttribute("data-ad-format","auto");
   }
@@ -169,13 +169,13 @@ function displayMemberCJContent(adSize) {
 function displayAmazonContent(adSize) {
   var iFrame = document.createElement("iframe");
   if(adSize == "mobileOnly") {
-	iFrame.setAttribute("src",getAmazonSrcMobile());
-	iFrame.setAttribute("width","300");
-	iFrame.setAttribute("height","250");
+    iFrame.setAttribute("src",getAmazonSrcMobile());
+    iFrame.setAttribute("width","300");
+    iFrame.setAttribute("height","250");
   } else {
-	iFrame.setAttribute("src",getAmazonSrcLeader());
-	iFrame.setAttribute("width","728");
-	iFrame.setAttribute("height","90");
+    iFrame.setAttribute("src",getAmazonSrcLeader());
+    iFrame.setAttribute("width","728");
+    iFrame.setAttribute("height","90");
   }
   iFrame.setAttribute("scrolling","no");
   iFrame.setAttribute("border","0");
