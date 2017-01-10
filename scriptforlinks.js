@@ -78,12 +78,31 @@ function getAmazonSrcMobile() {
   return aAmazonMobile[Math.floor(Math.random() * aAmazonMobile.length)];
 }
 
+//random function for functions
+function randomFrom(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
 //for displaying the ad in the body
 function displayBodyContent() {
+  var func = randomFrom([displayAmazonContent, displayMemberCJContent]);
   if(window.innerWidth < 420) {
-    displayMemberCJContent("mobileOnly");
+    (func)("mobileOnly");
+  } else if (window.innerWidth > 1020) {
+    (func)("leaderBoard");
   } else {
-    displayMemberCJContent("other");
+    displayAdSenseContent("anySize");  
+  }
+}
+
+//for displaying end ad
+function displayEndRecomm() {
+  if(window.innerWidth < 420) {
+    displayAdSenseContent("mobileOnly");
+  } else if (window.innerWidth > 1020) {
+    displayAdSenseContent("leaderBoard");
+  } else {
+    displayAdSenseContent("anySize");  
   }
 }
 
@@ -101,17 +120,6 @@ function displaySideBannerContent() {
   if(window.innerWidth > 767) {
     displayAdSenseContent("sideBanner");
   }  
-}
-
-//for displaying end ad
-function displayEndRecomm() {
-  if(window.innerWidth < 420) {
-    displayAmazonContent("mobileOnly");
-  } else if (window.innerWidth > 1020) {
-    displayAdSenseContent("LeaderBoard");
-  } else {
-    displayAdSenseContent("anySize");  
-  }
 }
 
 //supporting method for displaying adsense content
@@ -139,7 +147,7 @@ function displayAdSenseContent(adSize) {
   } else if(adSize == "sideBanner") {
     ins.setAttribute("style","display:inline-block;width:160px;height:600px");
     ins.setAttribute("data-ad-slot","8234557063");
-  } else if(adSize == "LeaderBoard") {
+  } else if(adSize == "leaderBoard") {
     ins.setAttribute("style","display:inline-block;width:728px;height:90px");
     ins.setAttribute("data-ad-slot","6894301068");
   } else if(adSize == "anySize") {
